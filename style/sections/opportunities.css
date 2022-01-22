@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,700;1,400&family=Mulish:wght@400;800&display=swap');
+
+.section-2 {
+	background-color: #E5E5E5;
+	color: #000;
+}
+
+.section-2 .container .title-info {
+	font-family: Mulish;
+	text-align: center;
+}
+
+.section-2 .container .title-info .title {
+	font-weight: 800;
+	font-size: 44px;
+	line-height: 80px;
+	color: #283049;
+	margin: 31px 0 20px 0;
+}
+
+.section-2 .container .title-info .subtitle {
+	max-width: 689px;
+	font-size: 21px;
+	line-height: 28px;
+	color: #1F3E4F;
+	margin: 0 auto;
+	margin-bottom: 63px;
+}
+
+.section-2 .container .title-info table {
+	width: 897px;
+	margin: 0 auto;
+	font-family: DM Sans;
+	font-size: 18px;
+	line-height: 28px;
+	color: #1F3E4F;
+	text-align: left;
+	border-collapse: collapse;
+}
+
+.section-2 .container .title-info table .head-1, .head-3, .head-4, .col-1, .col-3, .col-4 {
+	text-align: left;
+}
+
+.section-2 table .row-5 .col-2 {
+	position: relative;
+	left: 23px;
+}
+
+.section-2 table .head-2,.col-2 {
+	text-align: center;
+}
+
+.section-2 table .row-1 th {
+	font-weight: bold;
+	height: 28px;
+	width: 105px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid rgba(24, 123, 245, 0.4);
+}
+
+.section-2 table .row-1 .head-3::after {
+	content: ' ';
+	width: 100%;
+	height: 12px;
+	background-image: url(../../img/icons/Starmin.png);
+	background-repeat: no-repeat;
+	padding-left: 12px;
+	
+}
+
+.section-2 table .row-2 td {
+	vertical-align: top;
+	padding-top: 23px;
+}
+
+.section-2 table tr .col-2 {
+	color:#187BF5;
+}
+
+.section-2 table .row-7 > .col-4 {
+	color: #FF655F;
+	font-style: italic;
+}
+
+
+.section-2 table tr td {
+	padding-bottom: 16px;
+}
+
+.section-2 table .row-7 td{
+	border-bottom: 1px solid rgba(24, 123, 245, 0.4);
+	padding-bottom: 31px;
+}
+
+.section-2 .definition {
+	margin: 30px 0px 75px 317px;
+	max-width: 324px;
+	font-family: DM Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 28px;
+}
+.section-2 .definition::before {
+	content: ' ';
+	height: 19px;
+	width: 19px;
+	background-image: url(../../img/icons/starmax.png);
+	background-repeat: no-repeat;
+	padding-left: 20px;
+}

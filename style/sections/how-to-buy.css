@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@600;900&display=swap');
+.section-1 {
+    display: flex;
+    width: 100%;
+    padding: 230px 0 60px;
+    background:
+    url('../../img/background/box\ yellow.png') 1210px 200px/auto auto no-repeat,
+    url('../../img/background/box\ grey.png') 1140px 300px/auto auto no-repeat,
+    url('../../img/background/box\ purle.png') 250px 660px/auto auto no-repeat,
+    url('../../img/background/boxgreen.png') 160px 710px/auto auto no-repeat,
+    url('../../img/background/box\ pink.png') 1135px 1295px/auto auto no-repeat,
+    url('../../img/background/boxgreen.png') 1200px 1360px/auto auto no-repeat,
+    linear-gradient(0.5turn, #519CFB, #0773FA);
+}
+.buy-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Mulish', sans-serif;
+}
+
+.buy-info .main-title {
+    color: #FFFFFF;
+    font-size: 51px;
+    font-weight: 900;
+    line-height: 80px;
+    margin-bottom: 20px;
+}
+
+.buy-info .subtitle {
+    margin-bottom: 42px;
+    width: 689px;
+    height: 56px;
+    color: #FFFFFF;
+    font-size: 21px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: center;
+}
+
+.buy-info .subtitle .sublist-text a{
+	color: #033573;
+}
+
+.buy-list {
+    display: flex;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: -0.2px;
+    margin-bottom: 141px;
+}
+
+.buy-list .cex-list {
+    margin-right: 81px;
+}
+
+.buy-list .dex-list .pangolin {
+    background-color: #FF5F00;
+}
+
+.buy-list ul{
+    margin-top: 15px;
+}
+
+.buy-list li {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 179px;
+    height: 71px;
+    background-color: #FFFFFF;
+    box-shadow: 0 12px 57px -46px rgba(0, 0, 0, 0.24) inset;
+    overflow: hidden;
+    border-radius: 6px;
+    margin-bottom: 18px;
+}
+
+.sublist-text {
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: -0.4px;
+    margin-bottom: 78px;
+}
+.sublist-text::after {
+	content: " ";
+	width: 100%;
+	height: 11px;
+	background: url('../../img/icons/Symbolarrow_link.png') right no-repeat;
+	padding-right: 12px;
+}
+.add-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.add-info .title {
+    color: #FFFFFF;
+    font-weight: 800;
+    font-size: 44px;
+    line-height: 80px;
+    margin-bottom: 31px;
+    font-family: 'Mulish', sans-serif;
+}
+.add-info .subtitle-content {
+	display: flex;
+	width: 100%;
+	max-width: 900px;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+.add-info .subtitle-content .item {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.add-info .subtitle-content .item img {
+	margin-bottom: 25px;
+}
+.add-info .subtitle-content .item .description {
+	font-family: 'DM Sans', sans-serif;
+	position: relative;
+	max-width: 364px;
+	font-size: 18px;
+	line-height: 28px;
+	padding-left: 80px;
+}
+.add-info .subtitle-content .item .description .description-title {
+	display: flex;
+	position: absolute;
+	height: 55px;
+	width: 55px;
+	top: -5px;
+	left: 0;
+	justify-content: center;
+	align-items: center;
+	color: #0773FA;
+	font-size: 28px;
+	font-weight: 700;
+	background-color: #ffffff;
+	border-radius: 50%;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
